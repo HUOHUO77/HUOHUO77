@@ -1,9 +1,6 @@
-node_modules/
-venv/
 __pycache__/
+venv/
+node_modules/
 .env
-.DS_Store
-Thumbs.db
 *.log
-.idea/
-.vscode/
+.DS_Store
