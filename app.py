@@ -85,7 +85,7 @@ def api_posts():
     ]
     return jsonify({"code": 200, "data": posts, "msg": "success"})
 
-# 5. AI问答本地兜底（和你前端降级逻辑一致）
+# 5. AI问答本地兜底
 @app.route('/api/ai/chat', methods=['POST'])
 def api_ai_chat():
     question = request.json.get("question", "")
